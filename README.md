@@ -1,6 +1,7 @@
 # Laravel Influxdb
 
 A service made to provide, set up and use the library from influxdata [influxdb-php](https://github.com/influxdata/influxdb-php/) in Laravel.
+Forked from [tray-labs/laravel-influxdb](https://github.com/tray-labs/laravel-influxdb/) package, Laravel 6 compatiblity added
 
 ## Installing
 
@@ -8,7 +9,7 @@ A service made to provide, set up and use the library from influxdata [influxdb-
 
 ```
 "require": {
-    "tray-labs/laravel-influxdb": "*"
+    "zettich/laravel-influxdb": "*"
 }
 ```
 
@@ -17,14 +18,14 @@ A service made to provide, set up and use the library from influxdata [influxdb-
 ```
 'providers' => [
 //  ...
-    TrayLabs\InfluxDB\Providers\ServiceProvider::class,
+    Zettich\InfluxDB\Providers\ServiceProvider::class,
 ]
 ```
 
 ```
 'aliases' => [
 //  ...
-    'InfluxDB' => TrayLabs\InfluxDB\Facades\InfluxDB::class,
+    'InfluxDB' => Zettich\InfluxDB\Facades\InfluxDB::class,
 ]
 ```
 

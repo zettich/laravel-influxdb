@@ -1,22 +1,22 @@
 {
-	"name": "tray-labs/laravel-influxdb",
+    "name": "zettich/laravel-influxdb",
     "description": "A service made to provide, set up and use the library from influxdata influxphp in Laravel.",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Tray Labs",
-            "email": "dev@traylabs.com.br"
+            "name": "Zettich",
+            "email": "zettich@zettich.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "TrayLabs\\InfluxDB\\": "src/"
+            "Zettich\\InfluxDB\\": "src/"
         }
     },
     "require": {
         "influxdb/influxdb-php": "^1.14",
-        "illuminate/support": "^5.0"
+        "illuminate/support": "^5.0 || ^6.0"
     },
     "minimum-stability": "dev"
 }
