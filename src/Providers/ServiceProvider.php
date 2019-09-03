@@ -1,6 +1,6 @@
 <?php
 
-namespace TrayLabs\InfluxDB\Providers;
+namespace Zettich\InfluxDB\Providers;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 use InfluxDB\Client as InfluxClient;
